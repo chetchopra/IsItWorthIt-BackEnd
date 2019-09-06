@@ -1,7 +1,8 @@
 class PagesController < ApplicationController
 
     def show
-        return "Welcome to the IsItWorthIt API"
+        readme = File.read("#{Rails.root}/landing.html")
+        render html: readme.html_safe
     end
 
 end
