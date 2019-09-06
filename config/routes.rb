@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
+
+  root 'pages#show'
+
   resources :comparison_items, only: [:index, :show, :create, :update]
   resources :items, only: [:index, :show, :create, :update, :destroy]
   resources :users, only: [:create, :update]
-
 
   get '/users/:name', to: 'users#show'
 
