@@ -1,6 +1,6 @@
 # IsItWorthIt BackEnd
 
-This is a Rails API made for the IsItWorthIt App which can be found at LINK
+This is a Rails API made for the IsItWorthIt App which can be found at https://chetchopra.github.io/IsItWorthIt/
 
 ## Usage 
 1. Clone the repo 
